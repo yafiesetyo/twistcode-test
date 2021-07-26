@@ -26,4 +26,4 @@ function decToBin(number) {
 	return result.split("").reverse().join("");
 }
 
-console.log(decToBin(50));
+console.log(decToBin(19));

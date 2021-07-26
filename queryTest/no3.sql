@@ -1,0 +1,1 @@
+select order_date,status,payment_date,price as total,qty from tw_transaction t join tw_transaction_details td on (t.id = td.transaction_id)
